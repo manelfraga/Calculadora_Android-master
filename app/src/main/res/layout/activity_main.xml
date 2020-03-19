@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/darker_gray"
+    tools:context=".MainActivity">
+
+    <TableLayout
+        android:id="@+id/tableLayout"
+        android:layout_width="384dp"
+        android:layout_height="445dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="12dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/boton_seno"
+                style="?android:attr/borderlessButtonStyle"
+                android:layout_width="96dp"
+                android:layout_height="89dp"
+                android:background="@drawable/button_rounded_trigo"
+                android:text="@string/seno"
+                android:textColor="@android:color/white"
+                android:textSize="24sp" />
+
+            <Button
+                android:id="@+id/boton_coseno"
+                style="?android:attr/borderlessButtonStyle"
+                android:layout_width="96dp"
+                android:layout_height="89dp"
+                android:background="@drawable/button_rounded_trigo"
+                android:text="@string/coseno"
+                android:textColor="@android:color/white"
+                android:textSize="24sp" />
+
+            <Button
+                android:id="@+id/boton_tangente"
+                style="?android:attr/borderlessButtonStyle"
+                android:layout_width="96dp"
+                android:layout_height="89dp"
+                android:background="@drawable/button_rounded_trigo"
+                android:text="@string/tan"
+                android:textColor="@android:color/white"
+                android:textSize="24sp" />
+
+            <Button
+                android:id="@+id/boton_borrar"
+                style="?android:attr/borderlessButtonStyle"
+                android:layout_width="96dp"
+                android:layout_height="match_parent"
+                android:background="@drawable/button_rounded_delete"
+                android:text="@string/borrar"
+                android:textSize="34sp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/boton_1"
+                style="?android:attr/borderlessButtonStyle"
+                android:layout_width="96dp"
+                android:layout_height="89dp"
+                android:background="@drawable/button_rounded_numbers"
+                android:text="@string/number_1"
+                android:textColorLink="#FFEB3B"
+                android:textSize="36sp" />
+
+            <Button
+                android:id="@+id/boton_2"
+                style="?android:attr/borderlessButtonStyle"
+                android:layout_width="96dp"
+                android:layout_height="89dp"
+                android:background="@drawable/button_rounded_numbers"
+                android:text="@string/number_2"
+                android:textSize="36sp" />
+
+            <Button
+                android:id="@+id/boton_3"
+                style="?android:attr/borderlessButtonStyle"
+                android:layout_width="96dp"
+                android:layout_height="89dp"
+                android:background="@drawable/button_rounded_numbers"
+                android:text="@string/number_3"
+                android:textColorLink="#1B92A1"
+                android:textSize="36sp" />
+
+            <Button
+                android:id="@+id/boton_suma"
+                style="?android:attr/borderlessButtonStyle"
+                android:layout_width="96dp"
+                android:layout_height="89dp"
+                android:background="@drawable/button_rounded_operations"
+                android:text="@string/suma"
+                android:textColor="@android:color/white"
+                android:textSize="36sp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/boton_4"
+                style="?android:attr/borderlessButtonStyle"
+                android:layout_width="96dp"
+                android:layout_height="89dp"
+                android:background="@drawable/button_rounded_numbers"
+                android:text="@string/number_4"
+                android:textSize="36sp" />
+
+            <Button
+                android:id="@+id/boton_5"
+                style="?android:attr/borderlessButtonStyle"
+                android:layout_width="match_parent"
+                android:layout_height="89dp"
+                android:background="@drawable/button_rounded_numbers"
+                android:text="@string/number_5"
+                android:textSize="36sp" />
+
+            <Button
+                android:id="@+id/boton_6"
+                style="?android:attr/borderlessButtonStyle"
+                android:layout_width="match_parent"
+                android:layout_height="89dp"
+                android:background="@drawable/button_rounded_numbers"
+                android:text="@string/number_6"
+                android:textSize="36sp" />
+
+            <Button
+                android:id="@+id/boton_resta"
+                style="?android:attr/borderlessButtonStyle"
+                android:layout_width="96dp"
+                android:layout_height="89dp"
+                android:background="@drawable/button_rounded_operations"
+                android:text="@string/resta"
+                android:textColor="@android:color/white"
+                android:textSize="36sp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/boton_7"
+                style="?android:attr/borderlessButtonStyle"
+                android:layout_width="match_parent"
+                android:layout_height="89dp"
+                android:background="@drawable/button_rounded_numbers"
+                android:text="@string/number_7"
+                android:textSize="36sp" />
+
+            <Button
+                android:id="@+id/boton_8"
+                style="?android:attr/borderlessButtonStyle"
+                android:layout_width="match_parent"
+                android:layout_height="89dp"
+                android:background="@drawable/button_rounded_numbers"
+                android:text="@string/number_8"
+                android:textSize="36sp" />
+
+            <Button
+                android:id="@+id/boton_9"
+                style="?android:attr/borderlessButtonStyle"
+                android:layout_width="match_parent"
+                android:layout_height="89dp"
+                android:background="@drawable/button_rounded_numbers"
+                android:text="@string/number_9"
+                android:textSize="36sp" />
+
+            <Button
+                android:id="@+id/boton_producto"
+                style="?android:attr/borderlessButtonStyle"
+                android:layout_width="match_parent"
+                android:layout_height="89dp"
+                android:background="@drawable/button_rounded_operations"
+                android:text="@string/producto"
+                android:textColor="@android:color/white"
+                android:textSize="36sp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/boton_punto"
+                style="?android:attr/borderlessButtonStyle"
+                android:layout_width="match_parent"
+                android:layout_height="87dp"
+                android:background="@drawable/button_rounded_operations"
+                android:text="@string/punto"
+                android:textColor="@android:color/white"
+                android:textSize="36sp" />
+
+            <Button
+                android:id="@+id/boton_0"
+                style="?android:attr/borderlessButtonStyle"
+                android:layout_width="match_parent"
+                android:layout_height="89dp"
+                android:layout_span="1"
+                android:background="@drawable/button_rounded_numbers"
+                android:text="@string/number_0"
+                android:textSize="36sp" />
+
+            <Button
+                android:id="@+id/boton_igual"
+                style="?android:attr/borderlessButtonStyle"
+                android:layout_width="match_parent"
+                android:layout_height="89dp"
+                android:background="@drawable/button_rounded_operations"
+                android:text="@string/igual"
+                android:textColor="@android:color/white"
+                android:textSize="36sp" />
+
+            <Button
+                android:id="@+id/boton_division"
+                style="?android:attr/borderlessButtonStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:background="@drawable/button_rounded_operations"
+                android:text="@string/division"
+                android:textColor="@android:color/white"
+                android:textSize="36sp" />
+        </TableRow>
+    </TableLayout>
+
+    <TextView
+        android:id="@+id/pantalla"
+        android:layout_width="384dp"
+        android:layout_height="66dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:background="@android:color/background_light"
+        android:gravity="bottom|end"
+        android:padding="8dp"
+        android:text="@string/input_text_number"
+        android:textColor="@android:color/background_dark"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toTopOf="@+id/tableLayout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <Button
+        android:id="@+id/boton_deg_rad"
+        android:layout_width="60dp"
+        android:layout_height="49dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="58dp"
+        android:layout_marginBottom="8dp"
+        android:background="@drawable/button_rounded_delete"
+        android:text="@string/deg_rad"
+        app:layout_constraintBottom_toTopOf="@+id/pantalla"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+</android.support.constraint.ConstraintLayout>
